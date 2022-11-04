@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cce18f0ce0.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./portfolio.css">
+    <script src="./script.js" defer></script>  
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Contact</title>
+</head>
+<body class="body">
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">Nabila</div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                 <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                 <li><a href="About.html"><i class="fa fa-info"></i> About</a></li>
+                 <li><a href="Testimonial.html"><i class="fa fa-people-group"></i> Testimonial</a></li> 
+                 <li><a href="Resume.html"><i class="fa fa-briefcase"></i> Resume</a></li>
+                 <li><a href="Projects.html"><i class="fa fa-laptop"></i> Projects</a></li> 
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="contactcontainer">
+            <h2>Contact-form</h2>
+         <p>Feel free to contact me if you have any questions and/or concerns. If you prefer communication via a platform other than email, leave your contact details below and I'll get back to you.</p>
+        </div>
+        
+     <div class="contactcontainer">
+         <form action="https://formspree.io/f/mjvzozbl" method="POST">
+               <label for="fname">First Name</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+               <label for="lname">Last Name</label>
+               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+             <label for="Reason">Reason for contact</label>
+             <select id="reason" name="reason">
+                 <option value="Testing">Testing the form</option>
+                 <option value="hiring">Employer with the intention of hiring</option>
+                 <option value="observing">Just observing Nabila's newly developed skills</option>
+                 <option value="sushi">Would like to take Nabila for sushi</option>
+                 <option value="app">Would like to partner up to design an app </option>
+             </select>
+
+             <label for="email">Email</label>
+             <input type="text" id="email" name="email" placeholder="Your email..">
+
+             <label for="subject">Subject</label>
+             <textarea id="subject" name="subject" placeholder="Type message here.." style="height:200px"></textarea>
+
+             <input type="submit" value="Submit">
+         </form>
+     </div>
+
+    </main>
+    <footer class="footer">
+        <p>Thank you for taking your time to view my portfolio, I had fun creating it.</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/nabila-samsodien-a9bb6918a/"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/NabilaSam"><i class="fa fa-github fa-2x"> </i> </a>
+            <a href="mailto: nabilasamsodien@gmail.com"> <i class="fa fa-envelope fa-2x"> </i></a> <br>
+        </div>
+        <div>
+            <p>© Copyright 2022 nabilas.original.portfolio.design. All rights reserved.</p>
+           </div>
+  </footer>
+
+</body>
+</html>
